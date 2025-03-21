@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useEffect, useState } from "react";
-import "../styles/background.css"; // Import the CSS file for the background styles
 
 const Background: React.FC = () => {
     const [bubbleSize, setBubbleSize] = useState(80); // Default size (80px) for the bubble
