@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'next-themes'
-import { Providers } from './providers'
+import { Providers } from '../components/providers'
 import { Navbar } from '../components/navbar'
 import '../styles/globals.css'
 import '../styles/background.css'
