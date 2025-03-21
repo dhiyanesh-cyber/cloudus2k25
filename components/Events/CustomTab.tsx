@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from "react";
 import { Tabs, Tab } from "@heroui/react";
 import { NextPage } from "next";

@@ -1,8 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  url: "https://cloudus2k25.vercel.app",
+  name: "Cloudus 2k25 - SSMIET Symposium",
+  description: "Join us at SSMIET for Cloudus 2k25, a National level symposium to explore cutting-edge technologies and innovations.",
   navItems: [
     {
       label: "Home",
@@ -11,6 +12,14 @@ export const siteConfig = {
     {
       label: "Events",
       href: "#events",
+    },
+    {
+      label: "Speakers",
+      href: "#speakers",
+    },
+    {
+      label: "Schedule",
+      href: "#schedule",
     },
     {
       label: "Contact Us",
@@ -31,6 +40,14 @@ export const siteConfig = {
       href: "#events",
     },
     {
+      label: "Speakers",
+      href: "#speakers",
+    },
+    {
+      label: "Schedule",
+      href: "#schedule",
+    },
+    {
       label: "Contact Us",
       href: "/contactUs",
     },
@@ -38,7 +55,6 @@ export const siteConfig = {
       label: "FAQ",
       href: "#faq",
     }
-
   ],
   links: {
     github: "https://github.com/heroui-inc/heroui",
@@ -47,5 +63,6 @@ export const siteConfig = {
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
     instagram: "https://www.instagram.com/cloudus2k25?igsh=ejBzNjR0b2pnM2E4",
+    collegeWebsite: "https://ssmiet.ac.in",
   },
 };
