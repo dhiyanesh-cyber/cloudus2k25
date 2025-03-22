@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                     <main className="container mx-auto max-w-7xl pt-24 px-6 flex-grow">
                         <Component {...pageProps} />
                     </main>
-                    <footer
+                    <footer 
                         className="w-full flex items-center justify-center py-3"
                         style={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}
                     >

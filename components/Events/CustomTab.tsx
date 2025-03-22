@@ -18,7 +18,7 @@ interface Event {
 const technicalEvents: Event[] = [
   {
     id: "tech1",
-    title: "Hackathon 2025",
+    title: "Technical Present",
     description: "A 24-hour coding marathon to build innovative solutions.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "April 15-16, 2025",
@@ -26,7 +26,7 @@ const technicalEvents: Event[] = [
   },
   {
     id: "tech2",
-    title: "Web Development Workshop",
+    title: "Bug Smash",
     description: "Learn modern web development techniques with React and Node.js.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "April 20, 2025",
@@ -34,7 +34,15 @@ const technicalEvents: Event[] = [
   },
   {
     id: "tech3",
-    title: "AI Challenge",
+    title: "Link & Sync",
+    description: "Compete to build the most efficient machine learning model.",
+    image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
+    date: "May 5, 2025",
+    location: "Science Building",
+  },
+  {
+    id: "tech4",
+    title: "Switch Talks",
     description: "Compete to build the most efficient machine learning model.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "May 5, 2025",
@@ -45,7 +53,7 @@ const technicalEvents: Event[] = [
 const nonTechnicalEvents: Event[] = [
   {
     id: "nontech1",
-    title: "Cultural Night",
+    title: "Lights-Camera-Action",
     description: "Showcase your talents in music, dance, and art.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "April 25, 2025",
@@ -53,7 +61,7 @@ const nonTechnicalEvents: Event[] = [
   },
   {
     id: "nontech2",
-    title: "Debate Competition",
+    title: "Music Hunt",
     description: "Express your views on contemporary topics.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "April 30, 2025",
@@ -61,7 +69,15 @@ const nonTechnicalEvents: Event[] = [
   },
   {
     id: "nontech3",
-    title: "Photography Contest",
+    title: "Box Cricket",
+    description: "Capture moments that tell a story.",
+    image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
+    date: "May 10, 2025",
+    location: "Campus Grounds",
+  },
+  {
+    id: "nontech4",
+    title: "Tamil Treasure",
     description: "Capture moments that tell a story.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "May 10, 2025",
