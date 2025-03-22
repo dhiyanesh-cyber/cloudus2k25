@@ -12,6 +12,7 @@ interface Event {
   description: string;
   image: string;
   date: string;
+  time: string;
   location: string;
 }
 
@@ -22,6 +23,7 @@ const technicalEvents: Event[] = [
     description: "A 24-hour coding marathon to build innovative solutions.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "April 15-16, 2025",
+    time: "9:00 AM - 10:00 AM",
     location: "Engineering Block",
   },
   {
@@ -30,6 +32,7 @@ const technicalEvents: Event[] = [
     description: "Learn modern web development techniques with React and Node.js.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "April 20, 2025",
+    time: "9:00 AM - 10:00 AM",
     location: "Computer Science Lab",
   },
   {
@@ -38,6 +41,7 @@ const technicalEvents: Event[] = [
     description: "Compete to build the most efficient machine learning model.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "May 5, 2025",
+    time: "9:00 AM - 10:00 AM",
     location: "Science Building",
   },
   {
@@ -46,6 +50,7 @@ const technicalEvents: Event[] = [
     description: "Compete to build the most efficient machine learning model.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "May 5, 2025",
+    time: "9:00 AM - 10:00 AM",
     location: "Science Building",
   },
 ];
@@ -57,6 +62,7 @@ const nonTechnicalEvents: Event[] = [
     description: "Showcase your talents in music, dance, and art.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "April 25, 2025",
+    time: "9:00 AM - 10:00 AM",
     location: "Main Auditorium",
   },
   {
@@ -65,6 +71,7 @@ const nonTechnicalEvents: Event[] = [
     description: "Express your views on contemporary topics.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "April 30, 2025",
+    time: "9:00 AM - 10:00 AM",
     location: "Seminar Hall",
   },
   {
@@ -73,6 +80,7 @@ const nonTechnicalEvents: Event[] = [
     description: "Capture moments that tell a story.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "May 10, 2025",
+    time: "9:00 AM - 10:00 AM",
     location: "Campus Grounds",
   },
   {
@@ -81,6 +89,7 @@ const nonTechnicalEvents: Event[] = [
     description: "Capture moments that tell a story.",
     image: "https://img.freepik.com/premium-photo/blue-green-yellow-mixed-gradient-color-square-background_7954-28137.jpg",
     date: "May 10, 2025",
+    time: "9:00 AM - 10:00 AM",
     location: "Campus Grounds",
   },
 ];
@@ -101,15 +110,15 @@ const EventsTab: NextPage = () => {
     <div className="w-full flex flex-col items-center justify-start gap-6 py-8 md:py-10 min-h-[90svh]">
       <div className="w-full max-w-6xl px-4">
         <Tabs
-          variant="underlined"
+          variant="light"
           color="warning"
           aria-label="Event categories"
           className="flex flex-row justify-center mb-8"
           classNames={{
-            tabList: "gap-6 relative rounded-none p-0 border-b border-divider",
-            cursor: "w-full bg-[#22d3ee]",
-            tab: "max-w-fit px-0 h-12",
-            tabContent: "group-data-[selected=true]:text-[#06b6d4]",
+            // tabList: "gap-6 relative rounded-none p-0 border-b border-divider",
+            cursor: "w-full bg-[#00b7fa]",
+            // tab: "max-w-fit px-0 h-12",
+            // tabContent: "group-data-[selected=true]:text-[#06b6d4]",
           }}
           selectedKey={selected}
           size="lg"

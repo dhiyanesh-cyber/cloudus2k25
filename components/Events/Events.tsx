@@ -1,5 +1,8 @@
 import CustomTab from "@/components/Events/CustomTab";
 import { title } from "@/components/primitives";
+import { GlareCard } from "../ui/glare-card";
+import { PinContainer } from "../ui/3d-pin";
+import { CardSpotlight } from "../ui/card-spotlight";
 
 export default function EventsPage() {
     return (
@@ -9,3 +12,6 @@ export default function EventsPage() {
         </div>
     );
 }
+
+
+
