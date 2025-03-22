@@ -12,14 +12,20 @@ import ContactUsPage from "@/components/ContactUs/Contact";
 import { HiCalendarDays } from "react-icons/hi2";
 import { FaLocationDot } from "react-icons/fa6";
 import { Divider } from "@heroui/divider";
+import { motion } from "motion/react";
+
+import { LampContainer } from "@/components/ui/lamp";
 
 
 export default function Home() {
     return (
         <div >
             <Background />
+            
             <section className="flex flex-col items-center justify-start gap-4 py-8 md:py-10 min-h-[90svh]" >
+                
                 <div className="inline-block max-w-xl text-center justify-center">
+                    
 
                     <span className={`${title({ size: "sm" })} font-montserrat font-light`}>
                         School of computing
