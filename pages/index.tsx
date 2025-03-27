@@ -15,23 +15,21 @@ import { Divider } from "@heroui/divider";
 import { motion } from "motion/react";
 
 import { LampContainer } from "@/components/ui/lamp";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 
 export default function Home() {
     return (
         <div >
             <Background />
-            
+
             <section className="flex flex-col items-center justify-start gap-4 py-8 md:py-10 min-h-[90svh]" >
-                
+
                 <div className="inline-block max-w-xl text-center justify-center">
-                    
 
-                    <span className={`${title({ size: "sm" })} font-montserrat font-light`}>
-                        School of computing
-                    </span>
 
-                    <br />
+                    <TextGenerateEffect words="School of computing" />
+
                     <br />
 
                     <span className={`text-slate-300 font-light`}>
@@ -91,13 +89,14 @@ export default function Home() {
                 <EventsPage />
             </section>
 
-            <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+            <section id="contactUs" className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+                <ContactUsPage />
+            </section>
+
+            <section id="faq" className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
                 <FAQPage />
             </section>
 
-            <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-                <ContactUsPage />
-            </section>
         </div>
     );
 }
