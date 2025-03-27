@@ -14,16 +14,8 @@ export const siteConfig = {
       href: "#events",
     },
     {
-      label: "Speakers",
-      href: "#speakers",
-    },
-    {
-      label: "Schedule",
-      href: "#schedule",
-    },
-    {
       label: "Contact Us",
-      href: "/contactUs",
+      href: "#contactUs",
     },
     {
       label: "FAQ",
@@ -40,16 +32,8 @@ export const siteConfig = {
       href: "#events",
     },
     {
-      label: "Speakers",
-      href: "#speakers",
-    },
-    {
-      label: "Schedule",
-      href: "#schedule",
-    },
-    {
       label: "Contact Us",
-      href: "/contactUs",
+      href: "#contactUs",
     },
     {
       label: "FAQ",
