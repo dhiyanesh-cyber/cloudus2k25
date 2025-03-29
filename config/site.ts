@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  url: "https://cloudus2k25.vercel.app",
+  url: "https://www.cloudus2k25.tech",
   name: "Cloudus 2k25 - SSMIET Symposium",
   description: "Join us at SSMIET for Cloudus 2k25, a National level symposium to explore cutting-edge technologies and innovations.",
   navItems: [

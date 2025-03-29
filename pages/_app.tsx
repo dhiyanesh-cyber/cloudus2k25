@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                             className="flex items-center gap-1 text-current"
                         >
                             <span className="text-default-600">Powered by</span>
-                            <p className="text-primary">HeroUI</p>
+                            <p className="text-primary">SSMIET</p>
                         </Link>
                     </footer>
                 </div>

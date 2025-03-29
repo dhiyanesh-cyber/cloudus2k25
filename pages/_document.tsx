@@ -15,8 +15,10 @@ class MyDocument extends Document {
                     <meta charSet="utf-8" />
                     <meta name="description" content={siteConfig.description} />
 
+                    <title>Cloudus 2k25</title>
+
                     {/* Favicon */}
-                    <link rel="icon" href="/favicon.ico" />
+                    <link rel="icon" href="/logo.png" />
 
                     {/* Open Graph / Facebook */}
                     <meta property="og:type" content="website" />
